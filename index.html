@@ -4,106 +4,145 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Yafaaamir | Official Portfolio</title>
+
 <style>
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #0d0d0d;
-    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0a0f1c;
+    color: #ffffff;
     text-align: center;
 }
 
+/* Navigation */
+nav {
+    background: #111827;
+    padding: 18px;
+}
+
+nav a {
+    color: #facc15;
+    margin: 0 25px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Header */
 header {
-    padding: 40px 20px;
-    background: linear-gradient(45deg, #ff004f, #6a00ff);
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #111827, #1e3a8a);
 }
 
 .profile-img {
-    width: 160px;
-    height: 160px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
-    border: 4px solid white;
+    border: 4px solid #facc15;
     object-fit: cover;
     margin-bottom: 20px;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 42px;
     margin: 10px 0;
-}
-
-p {
-    margin: 5px 0;
+    color: #facc15;
 }
 
 section {
-    padding: 30px 20px;
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #facc15;
+    margin-bottom: 15px;
 }
 
 .btn {
     display: inline-block;
-    padding: 12px 25px;
-    margin: 10px;
-    background: #ff004f;
-    color: white;
+    padding: 14px 28px;
+    margin: 12px;
+    background: #facc15;
+    color: #111827;
     text-decoration: none;
     border-radius: 30px;
     font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #ffffff;
+    color: #000;
 }
 
 iframe {
-    border-radius: 10px;
-    margin-top: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
     max-width: 100%;
 }
+
 footer {
-    background: #111;
-    padding: 20px;
+    background: #111827;
+    padding: 25px;
     font-size: 14px;
+    margin-top: 40px;
+    color: #facc15;
 }
 </style>
 </head>
+
 <body>
 
+<nav>
+    <a href="index.html">Home</a>
+    <a href="shows.html">Live Shows</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
 <header>
-    <!-- Upload photo in GitHub root and put the exact name below -->
     <img src="yafaaamir.jpg" class="profile-img" alt="Yafaaamir">
     <h1>Yafaaamir</h1>
-    <p>Indie artist / Live performer / Cover vocalist / Original music / Composer / Singer-Songwriter</p>
+    <p>Indie Artist | Live Performer | Singer-Songwriter</p>
 </header>
-<div style="margin-top:50px;">
-  <img src="20260212_162854.jpg" 
-       alt="Yafa Singer" 
-       style="width:250px; border-radius:20px;">
-</div>
+
 <section>
     <h2>About Me</h2>
     <p>Student at Aligarh Muslim University</p>
-    <p>Date of Birth: 03 March 2009</p>
     <p>Based in Aligarh, India</p>
+    <p>Available for Live Shows & Collaborations</p>
 </section>
 
 <section>
     <h2>Follow Me</h2>
-    <a href="https://instagram.com/_yafaaamirr" class="btn" target="_blank">Instagram @_yafaaamirr</a>
+    <a href="https://instagram.com/_yafaaamirr" class="btn" target="_blank">
+        Instagram @_yafaaamirr
+    </a>
 </section>
 
 <section>
     <h2>Latest Reel</h2>
-    <iframe src="https://www.instagram.com/reel/DScz_FRk-u4/embed" width="300" height="400" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+    <iframe src="https://www.instagram.com/reel/DScz_FRk-u4/embed"
+        width="300"
+        height="400"
+        frameborder="0"
+        scrolling="no"
+        allowtransparency="true">
+    </iframe>
 </section>
 
 <section>
     <h2>Contact</h2>
     <p>Email: yafarockss@gmail.com</p>
-    <p>Location: Aligarh, India</p>
-    <p>Available for collaborations & music projects</p>
     <a href="mailto:yafarockss@gmail.com" class="btn">Email Me</a>
 </section>
 
 <footer>
-    © 2026 Yafaaamir | Official Portfolio
+    © 2026 Yafaaamir | Official Website
 </footer>
 
 </body>
-    </html>
+</html>
